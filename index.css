@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Glegoo";
+    src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(145, 137, 137, 0.1);
+    margin-top: -35px;
+}
+
+header {
+    background-color: #3f9c85;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    margin: 0;
+}
+
+nav img {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    left: 47%;
+}
+
+nav ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 22px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+main {
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgba(96, 124, 115, 0.2);
+
+}
+
+.profile .pp img {
+    top: 20px;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgba(82, 74, 74, 0.6);
+    border-radius: 80px;
+}
+
+main .name {
+    font-family: "Glegoo";
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+}
+
+section {
+    text-align: justify;
+}
+
+section #about {
+    position: absolute;
+    top: 450px;
+}
+
+section .about {
+    margin: 0 auto;
+    padding: 0 250px 0 250px;
+    background-color: white;
+}
+
+section #project {
+    position: absolute;
+    top: 830px;
+}
+
+section .about h4 {
+    background-color: rgba(100, 177, 113, 0.6);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+section .project {
+    margin: 0 auto;
+    padding: 0 250px 0 250px;
+    background-color: rgba(181, 214, 180, 0.6);
+}
+
+section .project h4 {
+    background-color: rgba(100, 177, 113, 0.6);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.logo img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+    clear: both;
+}
+
+.logo div p {
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+}
+
+footer {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgb(80, 107, 179);
+    color: white;
+}
+
+footer h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+footer ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    margin-left: 25%;
+
+}
+
+footer li {
+    display: inline-block;
+    color: white;   
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    margin-right: 50px;
+
+}
+
+footer li a {
+    text-decoration: none;
+}
